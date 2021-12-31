@@ -1,0 +1,129 @@
+.about-body {
+    text-align: center;
+    /* background-image: linear-gradient(to left, rgba(109, 179, 242, .6), rgb(228 204 194)), url(../../images/marufmobin.png); */
+    background-size: cover, 600px;
+    background-position: center, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    height: 100vh;
+}
+
+.custom-about {
+    width: 80%;
+    margin: 120px auto;
+    display: flex;
+}
+
+.inner-about-fist {
+    width: 60%;
+    padding: 40px;
+}
+
+.inner-about-second {
+    width: 40%;
+    padding: 40px;
+}
+
+.malti-about-inner {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 1.2;
+}
+
+.malti-about-inner span {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.satisfy-clients {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media ( min-width: 320px) and (max-width: 767px) {
+    .custom-about {
+        width: 100%;
+        margin: 0px;
+        flex-wrap: wrap;
+    }
+    .inner-about-fist {
+        width: 100%;
+    }
+    .inner-about-second {
+        width: 100%;
+    }
+    .malti-about-inner {
+        font-size: 16px;
+    }
+    .malti-about-inner span {
+        font-size: 14px;
+        text-align: justify;
+    }
+    .inner-main-manu {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    .works-main {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    .main-form {
+        width: 100% !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        border-radius: 8px;
+    }
+    .css-1v5u2yv {
+        padding: 0px !important;
+    }
+    .main-form .form-control {
+        width: 100% !important;
+    }
+    .form-btn {
+        width: 56% !important;
+    }
+    .main-form {
+        background: none !important;
+    }
+    .resume-wrapper {
+        margin: 20px 0px 0px !important;
+        padding-left: 10px;
+    }
+    .text-deco {
+        width: 100% !important;
+    }
+    .inner-home-text {
+        padding: 0px;
+        font-size: 36px;
+        width: 100%;
+    }
+    .stay-text,
+    .custom-text {
+        font-size: 42px;
+        width: 100%;
+    }
+    .custom-text-decoration {
+        margin: 0px;
+        width: 100%;
+        text-align: justify;
+        padding: 14px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 600px) {
+    .css-191lty2 {
+        min-height: 0px !important;
+    }
+}
+
+.skill-name {
+    color: #fff;
+    text-align: left;
+}
